@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- Reference the core assembly so we can inherit the base classes -->
+  <ItemGroup>
+    <ProjectReference Include="..\NexusMods.App.Core\NexusMods.App.Core.csproj" />
+  </ItemGroup>
+</Project>
